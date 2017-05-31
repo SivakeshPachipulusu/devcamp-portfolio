@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy]
-
+ # This is a blogs controller
   # GET /blogs
   # GET /blogs.json
   def index
